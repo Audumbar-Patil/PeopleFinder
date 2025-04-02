@@ -1,15 +1,14 @@
 {
   "homepage": "https://yourusername.github.io/https://github.com/Audumbar-Patil/PeopleFinder",
-
   "name": "peoplefinder",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  
   "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "leaflet": "^1.9.4",
     "react": "^19.0.0",
