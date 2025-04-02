@@ -1,0 +1,65 @@
+.profile-detail-page {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  
+  .detail-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .detail-map-container {
+      border-top: 1px solid #eee;
+      padding-top: 20px;
+  }
+  
+  .detail-map-container h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      text-align: center;
+      color: #555;
+  }
+  
+  .detail-map-container > .map-component {
+    height: 350px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  @media (min-width: 768px) {
+    .detail-content-wrapper {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .profile-detail-display {
+        flex: 1;
+    }
+  
+    .detail-map-container {
+        flex: 1.5;
+        border-top: none;
+        padding-top: 0;
+        border-left: 1px solid #eee;
+        padding-left: 20px;
+    }
+     .detail-map-container > .map-component {
+        height: 450px;
+     }
+  }

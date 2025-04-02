@@ -1,0 +1,21 @@
+.profile-list-page {
+    text-align: center;
+  }
+  
+  .profile-list-page h2 {
+    margin-bottom: 25px;
+    color: #444;
+  }
+  
+  .name-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  
+  .profile-list-page p {
+    font-style: italic;
+    color: #777;
+  }
